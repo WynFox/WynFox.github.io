@@ -1,8 +1,17 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS
+title: My Long Haul Blog
+email: youremail@example.com
+description: >
+  A simple blog powered by Jekyll and GitHub Pages.
+baseurl: "" # leave blank
+url: "https://yourusername.github.io"
 
-url: https://long-haul.netlify.app
-# Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
+author:
+  name: Your Name
+  bio: "Sharing tutorials and ideas"
+  email: youremail@example.com
+
+paginate: 5
+paginate_path: "/page:num/"
 
 remote_theme: brianmaierjr/long-haul
 plugins:
