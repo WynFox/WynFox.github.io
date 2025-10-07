@@ -2,53 +2,19 @@ title: My Long Haul Blog
 email: youremail@example.com
 description: >
   A simple blog powered by Jekyll and GitHub Pages.
-baseurl: "" # leave blank for GitHub Pages
+baseurl: "" 
 url: "https://yourusername.github.io"
 
-author:
-  name: Your Name
-  bio: "Sharing tutorials and ideas"
-  email: youremail@example.com
-
-# Load the theme
 remote_theme: brianmaierjr/long-haul
 
-# Plugins supported by GitHub Pages
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
 
-# Pagination
 paginate: 5
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
-# Optional settings
-sass:
-  style: compressed
-
 markdown: kramdown
 highlighter: rouge
-
-navigation:
-  - title: Home
-    url: /index.html
-  - title: About
-    url: /about
-  - title: Contact
-    url: /contact
-
-social:
-  github: yourusername
-  twitter: yourusername
-  facebook: yourusername
-  email: youremail@example.com
-  linkedin: yourusername
-  youtube: yourusername
-  tumblr: yourusername
-
-# Optional tracking (you can remove if not used)
-google_analytics: ""
-disqus:
-  shortname: ""
